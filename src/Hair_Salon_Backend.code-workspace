@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../Hair_Salon_Backend"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Frontent_Hair_Salon"
+	}
+}
