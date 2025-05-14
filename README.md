@@ -1,5 +1,5 @@
 Hair Salon Management System
-A full-stack web application designed to streamline the operations of a hair salon. This system facilitates appointment scheduling, service management, stylist assignments, and customer interactions, providing an efficient solution for salon owners and clients alike.
+A full-stack (Frontend  Repo )web application designed to streamline the operations of a hair salon. This system facilitates appointment scheduling, service management, stylist assignments, and customer interactions, providing an efficient solution for salon owners and clients alike.
 
 Features
 User Authentication: Secure login and registration for clients and staff.
