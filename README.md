@@ -53,7 +53,7 @@ Clone the repository:
 bash
 Copy
 Edit
-git clone https://github.com/yourusername/hair-salon-management.git
+git clone https://github.com/Vishalsahani156/Hair_Salon_Managment_Frontent
 cd hair-salon-management
 Install dependencies:
 
