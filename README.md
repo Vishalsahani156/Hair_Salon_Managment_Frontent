@@ -1,14 +1,107 @@
-# React + Vite
+Hair Salon Management System
+A full-stack web application designed to streamline the operations of a hair salon. This system facilitates appointment scheduling, service management, stylist assignments, and customer interactions, providing an efficient solution for salon owners and clients alike.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+User Authentication: Secure login and registration for clients and staff.
 
-Currently, two official plugins are available:
+Appointment Scheduling: Clients can book, reschedule, or cancel appointments with ease.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Service Management: Admins can add, update, or remove salon services.
 
-## Expanding the ESLint configuration
+Stylist Assignment: Assign specific stylists to services or appointments.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Dashboard: Real-time overview of appointments, services, and stylist availability.
 
-# Hair_Salon_Managment_Frontent
+Responsive Design: Optimized for desktops, tablets, and mobile devices.
+
+Technologies Used
+Frontend:
+
+React.js: For building dynamic user interfaces.
+
+JavaScript: Core programming language for frontend logic.
+
+CSS: Styling and layout design.
+
+React Hooks:
+
+useState: Manage component state.
+
+useEffect: Handle side effects like data fetching and subscriptions.
+
+Backend:
+
+Node.js: JavaScript runtime for server-side development.
+
+Express.js: Web framework for building RESTful APIs.
+
+MongoDB: NoSQL database for storing application data.
+
+Mongoose: ODM for MongoDB to simplify data modeling.
+
+JWT: JSON Web Tokens for secure authentication.
+
+Installation
+Prerequisites
+Node.js and npm installed on your machine.
+
+MongoDB installed and running.
+
+Steps
+Clone the repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/yourusername/hair-salon-management.git
+cd hair-salon-management
+Install dependencies:
+
+bash
+Copy
+Edit
+npm install
+Set up environment variables:
+
+Create a .env file in the root directory and add the following:
+
+env
+Copy
+Edit
+PORT=5000
+MONGODB_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+Run the application:
+
+bash
+Copy
+Edit
+npm start
+The application will start on http://localhost:5000.
+
+Usage
+Clients can:
+
+Register and log in to their accounts.
+
+Browse available services.
+
+Book, reschedule, or cancel appointments.
+
+View appointment history.
+
+Staff/Admins can:
+
+Manage salon services.
+
+Assign stylists to services.
+
+View and manage all appointments.
+
+Access dashboard analytics.
+
+Contributing
+Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.
+
+License
+This project is licensed under the MIT License.
